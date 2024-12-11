@@ -1,0 +1,37 @@
+.header {
+  /* outline: 1px solid red;
+  outline-offset: -2px; */
+
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--badges);
+  padding: 0 10px;
+
+  background-color: var(--light-grey);
+
+  @media (min-width: 768px) {
+    padding: 0 20px;
+  }
+
+  @media (min-width: 1440px) {
+    padding: 0 64px;
+  }
+}
+
+.logoLink {
+  margin-right: auto;
+  padding: 28px 0;
+
+  @media (min-width: 768px) {
+    margin-right: auto;
+  }
+
+  @media (min-width: 1440px) {
+    margin-right: 373px;
+  }
+}
+
+.logo {
+  width: 136px;
+  height: 16px;
+}

@@ -1,0 +1,44 @@
+.containerCampersList {
+  width: 100%;
+  height: auto;
+
+  @media (min-width: 768px) {
+    width: 100%;
+    height: auto;
+  }
+
+  @media (min-width: 1440px) {
+    width: 888px;
+    height: 1664px;
+  }
+}
+
+.textError,
+.textLoading {
+  text-align: center;
+  margin-top: 40px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--red);
+}
+
+.textLoading {
+  color: var(--dark);
+}
+
+.item {
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: 1440px) {
+    margin-bottom: 32px;
+  }
+}
